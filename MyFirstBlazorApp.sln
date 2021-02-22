@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstBlazorApp.Server", "MyFirstBlazorApp\Server\MyFirstBlazorApp.Server.csproj", "{ACA88A7C-A29C-40E3-B605-27C5B8B1A192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstBlazorApp.Server", "MyFirstBlazorApp\Server\MyFirstBlazorApp.Server.csproj", "{ACA88A7C-A29C-40E3-B605-27C5B8B1A192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstBlazorApp.Client", "MyFirstBlazorApp\Client\MyFirstBlazorApp.Client.csproj", "{8D5D09DF-D5F4-4500-9365-8FBF4E368BDE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstBlazorApp.Client", "MyFirstBlazorApp\Client\MyFirstBlazorApp.Client.csproj", "{8D5D09DF-D5F4-4500-9365-8FBF4E368BDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstBlazorApp.Shared", "MyFirstBlazorApp\Shared\MyFirstBlazorApp.Shared.csproj", "{62D64A8B-12D5-4F48-A42E-4AC6E00DEF86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstBlazorApp.Shared", "MyFirstBlazorApp\Shared\MyFirstBlazorApp.Shared.csproj", "{62D64A8B-12D5-4F48-A42E-4AC6E00DEF86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

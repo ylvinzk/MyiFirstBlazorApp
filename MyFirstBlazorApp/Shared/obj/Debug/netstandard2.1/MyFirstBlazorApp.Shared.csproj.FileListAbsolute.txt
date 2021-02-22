@@ -7,3 +7,12 @@ C:\Users\yperez\source\playground\MyFirstBlazorApp\MyFirstBlazorApp\Shared\obj\D
 C:\Users\yperez\source\playground\MyFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.csproj.CoreCompileInputs.cache
 C:\Users\yperez\source\playground\MyFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.dll
 C:\Users\yperez\source\playground\MyFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.pdb
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorApp.Shared.deps.json
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorApp.Shared.dll
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\bin\Debug\netstandard2.1\MyFirstBlazorApp.Shared.pdb
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.csprojAssemblyReference.cache
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.AssemblyInfoInputs.cache
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.AssemblyInfo.cs
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.dll
+C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Shared\obj\Debug\netstandard2.1\MyFirstBlazorApp.Shared.pdb
