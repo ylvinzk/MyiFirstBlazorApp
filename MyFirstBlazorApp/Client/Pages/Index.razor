@@ -1,7 +1,44 @@
 ﻿@page "/"
+@using System.Diagnostics
 
 <h1>Hello, world!</h1>
 <MyFirstComponent />
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+<div @onclick=TopLevelClicked>
+    <h1>Top level</h1>
+    <div @onclick=SecondLevelClicked @onclick:stopPropagation>
+        <h2>Second level</h2>
+        <div @onclick=ThirdLevelClicked @onclick:stopPropagation>
+            <h3>Third level</h3>
+        </div>
+    </div>
+</div>
+
+Last multiple of three = @lastMultipleOfThree
+<Counter OnMultipleOfThree=@UpdateLastMultipleOfThreeValue/>
+
+@code
+{
+    int lastMultipleOfThree;
+
+    private void UpdateLastMultipleOfThreeValue(int value)
+    {
+        lastMultipleOfThree = value;
+    }
+
+    private static void TopLevelClicked()
+    {
+        Debug.WriteLine("Top level clicked");
+    }
+    private static void SecondLevelClicked()
+    {
+        Debug.WriteLine("Second level clicked");
+    }
+    private static void ThirdLevelClicked()
+    {
+        Debug.WriteLine("Third level clicked");
+    }
+}
