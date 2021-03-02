@@ -11,8 +11,13 @@
 {
     private int _counter;
 
-    private void IncrementCounter()
+    private async Task IncrementCounter()
     {
-        _counter++;
+        counter++;
+        if (counter % 3 == 0)
+            await OnMultipleOfThree.InvokeAsync(counter);
     }
+
+    [Parameter]
+    public EventCallback<int> OnMultipleOfThree { get; set; }
 }

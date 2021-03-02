@@ -1,7 +1,30 @@
 ﻿@page "/admin/users"
+@using MyFirstBlazorApp.Shared
 
-<h3>Users</h3>
+<div class="row">
+    <div class="col-4">To HTML attribute using .ToString()</div>
+    <div class="col-8"><input readonly value=@myPerson/></div>
+</div>
 
-@code {
+<div class="row">
+    <div class="col-4">To component value as object</div>
+    <div class="col-8">
+        <PersonView Person=@myPerson/>
+    </div>
+</div>
 
+@code
+{
+    Person myPerson;
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        myPerson = new Person
+        {
+            Salutation = "Mr",
+            GivenName = "Peter",
+            FamilyName = "Morris"
+        };
+    }
 }
