@@ -91,8 +91,8 @@ using MyFirstBlazorApp.Client.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 10 "C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Client\Pages\Counter.razor"
-       
+#line 11 "C:\Users\yperez\Workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Client\Pages\Counter.razor"
+ 
     private int counter;
 
     private void IncrementCounter()
