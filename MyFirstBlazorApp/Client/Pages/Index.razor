@@ -7,26 +7,27 @@ Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
 
-<div @onclick=TopLevelClicked>
-    <h1>Top level</h1>
-    <div @onclick=SecondLevelClicked @onclick:stopPropagation>
-        <h2>Second level</h2>
-        <div @onclick=ThirdLevelClicked @onclick:stopPropagation>
-            <h3>Third level</h3>
-        </div>
-    </div>
-</div>
+<ul>
+    <li>Last multiple of three = @lastMultipleOfThree</li>
+    <li>Last multiple of two = @lastMultipleOfTwo</li>
+</ul>
 
-Last multiple of three = @lastMultipleOfThree
-<Counter OnMultipleOfThree=@UpdateLastMultipleOfThreeValue/>
+<Counter OnMultipleOfThree=@UpdateLastMultipleOfThreeValue
+         OnMultipleOfTwoAction="@UpdateLastMultipleOfTwoValue" />
 
 @code
 {
     int lastMultipleOfThree;
+    int lastMultipleOfTwo;
 
     private void UpdateLastMultipleOfThreeValue(int value)
     {
         lastMultipleOfThree = value;
+    }
+
+    private void UpdateLastMultipleOfTwoValue(int value)
+    {
+        lastMultipleOfTwo = value;
     }
 
     private static void TopLevelClicked()

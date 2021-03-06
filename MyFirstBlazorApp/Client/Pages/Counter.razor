@@ -2,8 +2,10 @@
 
 <h1>Counter</h1>
 <MySecondComponet CurrentCounterValue=@counter />
-<button class="btn btn-primary"
-        @onclick="IncrementCounter">
+<MyFirstComponent @bind-CurrentCounterValue="counter" />
+
+<button @onclick="IncrementCounter"
+        class="btn btn-primary">
     Increment counter
 </button>
 
@@ -11,13 +13,29 @@
 {
     private int counter;
 
-    private async Task IncrementCounter()
-    {
-        counter++;
-        if (counter % 3 == 0)
-            await OnMultipleOfThree.InvokeAsync(counter);
-    }
+    [Parameter]
+    public int CurrentCounterValue { get; set; }
 
     [Parameter]
     public EventCallback<int> OnMultipleOfThree { get; set; }
+
+    [Parameter]
+    public Action<int> OnMultipleOfTwoAction { get; set; }
+
+
+    private async Task IncrementCounter()
+    {
+        counter++;
+
+        if (counter % 2 == 0)
+        {
+            OnMultipleOfTwoAction?.Invoke(counter);
+        }
+
+        if (counter % 3 == 0)
+        {
+            await OnMultipleOfThree.InvokeAsync(counter);
+        }
+
+    }
 }

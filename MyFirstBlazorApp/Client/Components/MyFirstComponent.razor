@@ -2,6 +2,21 @@
     Current counter value in MyFirstComponent is @CurrentCounterValue
 </div>
 
+<button @onclick="UpdateCurrentCounterValue"
+        class="btn btn-dark">
+    Update
+</button>
+
 @code {
-    private int CurrentCounterValue = 42;
+    [Parameter]
+    public int CurrentCounterValue { get; set; }
+
+    [Parameter]
+    public EventCallback<int> CurrentCounterValueChanged { get; set; }
+
+    private async Task UpdateCurrentCounterValue()
+    {
+        CurrentCounterValue++;
+        await CurrentCounterValueChanged.InvokeAsync(CurrentCounterValue);
+    }
 }

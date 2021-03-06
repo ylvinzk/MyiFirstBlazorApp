@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Client\\MyFirstBlazorApp.Client.csproj": {}
+    "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Client\\MyFirstBlazorApp.Client.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Client\\MyFirstBlazorApp.Client.csproj": {
+    "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Client\\MyFirstBlazorApp.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Client\\MyFirstBlazorApp.Client.csproj",
+        "projectUniqueName": "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Client\\MyFirstBlazorApp.Client.csproj",
         "projectName": "MyFirstBlazorApp.Client",
-        "projectPath": "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Client\\MyFirstBlazorApp.Client.csproj",
+        "projectPath": "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Client\\MyFirstBlazorApp.Client.csproj",
         "packagesPath": "C:\\Users\\yperez\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Client\\obj\\",
+        "outputPath": "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yperez\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj": {
-                "projectPath": "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj"
+              "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj": {
+                "projectPath": "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj"
               }
             }
           }
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj": {
+    "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj",
+        "projectUniqueName": "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj",
         "projectName": "MyFirstBlazorApp.Shared",
-        "projectPath": "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj",
+        "projectPath": "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Shared\\MyFirstBlazorApp.Shared.csproj",
         "packagesPath": "C:\\Users\\yperez\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\source\\repos\\playground\\MyFirstBlazorApp\\MyFirstBlazorApp\\Shared\\obj\\",
+        "outputPath": "C:\\workspace\\source\\repos\\MyiFirstBlazorApp\\MyFirstBlazorApp\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\yperez\\AppData\\Roaming\\NuGet\\NuGet.Config",

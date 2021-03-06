@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace MyFirstBlazorApp.Client.Components
+namespace MyFirstBlazorApp.Client.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,15 @@ using MyFirstBlazorApp.Client.Components;
 #line default
 #line hidden
 #nullable disable
-    public partial class MyFirstComponent : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 2 "C:\workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Client\Pages\BankBalance.razor"
+using System.Globalization;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/bank-balance")]
+    public partial class BankBalance : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,19 +98,14 @@ using MyFirstBlazorApp.Client.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 10 "C:\workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Client\Components\MyFirstComponent.razor"
+#line 25 "C:\workspace\source\repos\MyiFirstBlazorApp\MyFirstBlazorApp\Client\Pages\BankBalance.razor"
        
-    [Parameter]
-    public int CurrentCounterValue { get; set; }
+    private string name;
+    private DateTime? dateOfBirth;
+    private decimal? bankBalance;
 
-    [Parameter]
-    public EventCallback<int> CurrentCounterValueChanged { get; set; }
-
-    private async Task UpdateCurrentCounterValue()
-    {
-        CurrentCounterValue++;
-        await CurrentCounterValueChanged.InvokeAsync(CurrentCounterValue);
-    }
+    private CultureInfo turkishCulture = CultureInfo.GetCultureInfo("tr-TR");
+    private readonly CultureInfo usCulture = CultureInfo.GetCultureInfo("en-US");
 
 #line default
 #line hidden

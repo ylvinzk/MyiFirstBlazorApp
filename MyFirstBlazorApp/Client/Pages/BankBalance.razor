@@ -1,0 +1,32 @@
+﻿@page "/bank-balance"
+@using System.Globalization
+
+<h1>Bank balance</h1>
+
+<label>Name = @name</label>
+<div>
+    <input @bind-value=name
+           @bind-value:event="oninput" />
+</div>
+
+<label>Date of birth = @dateOfBirth?.ToString("MMMM d, yyyy")</label>
+<div>
+    <input @bind-value=dateOfBirth
+           @bind-value:format="yyyy-MM-dd" />
+</div>
+
+<label>Bank balance = @bankBalance</label>
+<div>
+    <input @bind-value=bankBalance
+           @bind-value:culture=turkishCulture />
+</div>
+
+
+@code {
+    private string name;
+    private DateTime? dateOfBirth;
+    private decimal? bankBalance;
+
+    private CultureInfo turkishCulture = CultureInfo.GetCultureInfo("tr-TR");
+    private readonly CultureInfo usCulture = CultureInfo.GetCultureInfo("en-US");
+}
