@@ -1,7 +1,7 @@
 ﻿@page "/counter"
 
 <h1>Counter</h1>
-<MySecondComponet CurrentCounterValue=@_counter />
+<MySecondComponet CurrentCounterValue=@counter />
 <button class="btn btn-primary"
         @onclick="IncrementCounter">
     Increment counter
@@ -9,7 +9,7 @@
 
 @code
 {
-    private int _counter;
+    private int counter;
 
     private async Task IncrementCounter()
     {
